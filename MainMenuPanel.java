@@ -5,11 +5,13 @@ import java.awt.*;
 
 public class MainMenuPanel extends JPanel {
     Image background;
+
     public MainMenuPanel() {
          background = new ImageIcon("D:/WhacAMole/src/View/MenuPanel.png").getImage();
          setLayout(null);
 
         JButton startButton = new JButton("Start Game");
+        startButton.setFont(new Font("Tahoma", Font.BOLD + Font.ITALIC, 16));
         startButton.setBackground(new Color(150,75,0));
         startButton.setSize(150,30);
         startButton.setLocation(100,200);
@@ -20,6 +22,7 @@ public class MainMenuPanel extends JPanel {
         add(startButton);
 
         JButton musicButton = new JButton("Music");
+        musicButton.setFont(new Font("Tahoma", Font.BOLD + Font.ITALIC, 16));
         musicButton.setBackground(new Color(150,75,0));
         musicButton.setSize(150,30);
         musicButton.setLocation(100,240);
@@ -28,6 +31,7 @@ public class MainMenuPanel extends JPanel {
         add(musicButton);
 
         JButton aboutButton = new JButton("About");
+        aboutButton.setFont(new Font("Tahoma", Font.BOLD + Font.ITALIC, 16));
         aboutButton.setBackground(new Color(150,75,0));
         aboutButton.setSize(150,30);
         aboutButton.setLocation(100,280);
@@ -36,6 +40,7 @@ public class MainMenuPanel extends JPanel {
         add(aboutButton);
 
         JButton exitButton = new JButton("Exit");
+        exitButton.setFont(new Font("Tahoma", Font.BOLD + Font.ITALIC, 16));
         exitButton.setBackground(new Color(150,75,0));
         exitButton.setSize(150,30);
         exitButton.setLocation(100,320);
