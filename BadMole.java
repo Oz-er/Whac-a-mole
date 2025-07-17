@@ -1,5 +1,7 @@
 package Model;
 
+import javax.swing.*;
+
 public class BadMole extends Mole {
 
      protected ImageIcon badMole;
