@@ -25,7 +25,7 @@ public class MainMenuPanel extends JPanel {
         add(startButton);
 
         //High Score
-        JButton scoreButton = new JButton("Score");
+        JButton scoreButton = new JButton("How to Play");
         scoreButton.setFont(new Font("Tahoma", Font.BOLD + Font.ITALIC, 16));
         scoreButton.setBackground(new Color(150,75,0));
         scoreButton.setSize(130,30);
@@ -86,4 +86,5 @@ public class MainMenuPanel extends JPanel {
         g.drawImage(button,100,600,150,50,this);
     }
 }
+
 
